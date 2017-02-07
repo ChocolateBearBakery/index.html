@@ -1,0 +1,128 @@
+body {
+ text-align: center;
+ font-family: Garamond;
+}
+.top-header {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-family: 'Century Gothic';
+  border-bottom: 3px solid black;
+  background-image: url("/Users/MikeyThomas/Desktop/Projects/ChocolateBear/resources/media/header1.png");
+  background-position: center;
+  background-size: cover;
+  height: 140px;
+}
+.intro {
+  font-style: italic;
+  font-size: 30px;
+  margin: 10px 100px;
+  opacity: .8;
+}
+em {
+  font-weight: bolder;
+}
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+nav {
+  width:100%;
+  z-index: 10;
+  position: fixed;
+  top: 150px;
+  right: 8px;
+}
+.nav a {
+  color: black;
+  text-shadow: 1px 1px white;
+}
+.nav li {
+  list-style: none;
+  display: inline;
+  margin: 0px 50px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  width: 60px;
+  text-align: center;
+  background-color:white;
+}
+nav li:hover {
+  background: white;
+  color: black;
+  font-style: oblique;
+  opacity: 1;
+}
+.divider img {
+  margin: -90px 0px;
+  height: 200px;
+  z-index: 0;
+  padding: 20px;
+  display: block;
+}
+.description {
+  font-family: cursive, serif;
+  z-index: 8;
+}
+#main {
+  position: relative;
+  top: 220px;
+  height: 500px;
+  overflow: scroll;
+
+}
+#shop {
+  display: inline;
+}
+.menu-item {
+width: inherit;
+position: relative;
+}
+
+#shop-item {
+border: 1px solid black;
+width:300px;
+height: 220px;
+opacity: 0.3;
+overflow: hidden;
+background-color: lightcyan;
+position: relative;
+display: inline-block;
+margin: 10px 30px;
+
+}
+.top {
+  text-align: right;
+  font-size: 15px;
+  color: blue;
+  border: 1px dotted gray;
+  border-radius: 25px;
+  margin-left: 91%;
+  padding: 15px;
+}
+
+}
+#shop-item:hover {
+  opacity: 1;
+
+}
+div {
+  padding: 30px;
+}
+h2 {
+  font-size: 60px;
+  margin-top: 15px;
+}
+.contact-list {
+  font-family: cursive, serif;
+  list-style: none;
+  font-display: block;
+  list-style: none;
+  text-transform: capitalize;
+  position:inherit;
+}
+
+p {
+  z-index: 5;
+}
